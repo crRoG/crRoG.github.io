@@ -1,0 +1,49 @@
+$color-orange: #fa9100;
+$color-blue:#12426c;
+$color-ligthBlue: #1d7b8f;
+$color-white: #ffffff;
+$color-darkBlue:#0a1123;
+$color-grey: #d4d9d1;
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $color-darkBlue;
+}
+
+main{
+    width: 1080px;
+    
+    .title{
+        color: $color-orange;
+        text-align: center;
+        
+        
+    }
+    .text{
+        color: $color-ligthBlue;
+        padding: 2rem 0;
+        border-bottom: 0.5px solid $color-blue;
+        margin: 0 2rem;
+    }  
+    .text2{
+        color: $color-blue;
+        padding: 2rem 0;
+        border-bottom: 0.5px solid $color-blue;
+        margin: 0 2rem;
+        
+    }
+    .text3{
+        color:$color-grey;
+        padding: 2rem 0;
+        border-bottom: 0.5px solid $color-blue;
+        margin: 0 2rem;
+    }
+}
