@@ -1,40 +1,20 @@
 * {
   padding: 0;
   margin: 0;
+  color: #FF4F00;
 }
 
-body {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #0a1123;
+  background-color: #000010;
 }
-
-main {
-  width: 1080px;
-}
-main .title {
-  color: #fa9100;
-  text-align: center;
-}
-main .text {
-  color: #1d7b8f;
-  padding: 2rem 0;
-  border-bottom: 0.5px solid #12426c;
-  margin: 0 2rem;
-}
-main .text2 {
-  color: #12426c;
-  padding: 2rem 0;
-  border-bottom: 0.5px solid #12426c;
-  margin: 0 2rem;
-}
-main .text3 {
+.container .hello span {
+  font-family: monospace;
   color: #d4d9d1;
-  padding: 2rem 0;
-  border-bottom: 0.5px solid #12426c;
-  margin: 0 2rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
